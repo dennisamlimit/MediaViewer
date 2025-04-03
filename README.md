@@ -28,6 +28,13 @@ This is a **simple media viewer**, originally built as a small personal project.
 4. If the file does **not** exist:
     - User is redirected to a fallback URL (e.g., `https://dennisamlimit.dev`)
 
+.htaccess Content
+   ```
+   RewriteEngine On
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule ^(.+)$ index.php?media=$1 [L,QSA]
+   ```
 ---
 
 ## Getting Started
