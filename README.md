@@ -48,12 +48,6 @@ This is a **simple media viewer**, originally built as a small personal project.
 
 ---
 
-## 📸 Preview
-
-![Screenshot](screenshot.png)
-
----
-
 ## 📄 License
 
 MIT License. Free to use, modify, and share.
