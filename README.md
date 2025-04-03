@@ -61,7 +61,3 @@ MIT License. Free to use, modify, and share.
 
 ---
 
-## 🙋‍♂️ Author
-
-Made with by [Dennis](https://dennisamlimit.dev)
-
